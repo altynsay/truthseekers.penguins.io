@@ -1,8 +1,8 @@
 var yourV2Spec = {
     $schema: 'https://vega.github.io/schema/vega-lite/v5.json',
     description: 'Population of penguins through years',
-    width: 800,
-    height: 600,
+    width: 400,
+    height: 300,
     
     layer: [
       {
