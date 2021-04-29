@@ -13,7 +13,7 @@ var yourV2Spec = {
             feature: "countries"
           }
         },
-        projection: {type: "stereographic", center: [0,-90], scale: 400},
+        projection: {type: "stereographic", center: [0,-90], scale: 300},
         mark: {type: "geoshape", fill: "lightgray", stroke: "white"}
       },
       {
@@ -32,7 +32,7 @@ var yourV2Spec = {
           }
           ],
         transform: [{filter: {param: "Year"}}],
-        projection: {type: "stereographic", center: [0, -90], scale: 400},
+        projection: {type: "stereographic", center: [0, -90], scale: 300},
         mark: {type:"circle", stroke: "black", strokeWidth: 0.3},
         encoding: {
           longitude: {field: "longitude EPSG:4326", type: "quantitative"},
