@@ -1,7 +1,7 @@
     var yourVlSpec = {
       $schema: 'https://vega.github.io/schema/vega-lite/v5.json',
       description: 'Population of penguins through years',
-      width: 300,
+      width: 400,
       height: 100,
       data: { url: 'penguins count.json'},
       transform: [
