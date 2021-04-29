@@ -46,7 +46,7 @@ var yourV2Spec = {
             condition: {param: "species", value: 1},
             value: 0
           },
-          size: {field: "mean", type: "quantitative", scale: {rangeMax: 4000}}
+          size: {field: "mean", type: "quantitative", scale: {rangeMax: 3000}}
         }
       }
     ]
