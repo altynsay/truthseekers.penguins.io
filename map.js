@@ -31,7 +31,6 @@ var yourV2Spec = {
             bind: "legend"
           }
           ],
-        transform: [{filter: {param: "Year"}}],
         projection: {type: "stereographic", center: [0, -90], scale: 300},
         mark: {type:"circle", stroke: "black", strokeWidth: 0.3},
         encoding: {
@@ -43,7 +42,7 @@ var yourV2Spec = {
             scale: {scheme: "set3", domain: ["adelie penguin","gentoo penguin", "chinstrap penguin"]}
           },
           opacity: {
-            condition: {param: "species", value: 1},
+            condition: {param: "Year", value: 1},
             value: 0
           },
           size: {field: "mean", type: "quantitative", scale: {rangeMax: 3000}}
