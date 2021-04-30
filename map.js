@@ -24,11 +24,6 @@ var yourV2Spec = {
             value: {"season starting": 2016},
             select: {type: "point", fields: ["season starting"]},
             bind: {"season starting": {input: "range", min: 1982, max: 2016, step: 1}}
-          },
-          {
-            name: "species",
-            select: {type: "point", fields: ["common name"]},
-            bind: "legend"
           }
           ],
         projection: {type: "stereographic", center: [0, -90], scale: 300},
@@ -41,6 +36,7 @@ var yourV2Spec = {
             type: "nominal", 
             scale: {scheme: "set3", domain: ["adelie penguin","gentoo penguin", "chinstrap penguin"]}
           },
+          tooltip: [{field: "site name", type:"nominal"},{field:"mean", type: "quantitative"}],
           opacity: {
             condition: {param: "Year", value: 1},
             value: 0
