@@ -1,0 +1,45 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {"url": "data/penguins.json"},
+  "transform": [{
+    "window": [{"op": "row_number", "as": "row_number"}]
+  }],
+  "hconcat": [{
+    "params": [{"name": "brush", "select": "interval"}],
+    "mark": "point",
+    "encoding": {
+      "x": {"field": "Beak Depth (mm)", "type": "quantitative", "scale": { "domain": [10, 25]}},
+      "y": {"field": "Beak Length (mm)", "type": "quantitative", "scale": { "domain": [30, 65]}},
+      "color": {
+        "condition": {"param": "brush", "field": "Species", "type": "nominal"},
+        "value": "grey"
+        
+      }
+
+    }
+  }, {
+    "transform": [
+      {"filter": {"param": "brush"}},
+      {"window": [{"op": "rank", "as": "rank"}]},
+      {"filter": {"field": "rank", "lt": 20}}
+    ],
+    "hconcat": [{
+      "width": 50,
+      "title": "Beak Depth",
+      "mark": "text",
+      "encoding": {
+        "text": {"field": "Beak Depth (mm)", "type": "quantitative"},
+        "y": {"field": "row_number", "type": "ordinal", "axis": null}
+      }
+    }, {
+      "width": 50,
+      "title": "Beak Length",
+      "mark": "text",
+      "encoding": {
+        "text": {"field": "Beak Length (mm)", "type": "quantitative"},
+        "y": {"field": "row_number", "type": "ordinal", "axis": null}
+      }
+    }]
+  }],
+"resolve": {"legend": {"color": "independent"}}
+}
