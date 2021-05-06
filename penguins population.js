@@ -1,29 +1,29 @@
     var yourVlSpec = {
       $schema: 'https://vega.github.io/schema/vega-lite/v5.json',
       description: 'Population of penguins through years',
+      data: { url: 'data/penguins count.json'},
       width: 400,
-      height: 100,
-      data: { url: 'penguins count.json'},
+      height: 200,
       transform: [
           {
-            filter: {field: "season starting", lte: "2016"}
+            filter: {field: "year", lte: "2016"}
           }
       ],
       mark: {type:"area", line: "True", point: "True"},
       params:[{
         name: "species_filter",
-        select: {type: "point", fields: ["common name"]},
+        select: {type: "point", fields: ["species"]},
         bind: "legend"
       }],
       encoding: {
           y: {
-              aggregate: "sum", field: "mean"
+              aggregate: "sum", field: "population"
           },
           x: {
-              field: "season starting",
+              field: "year",
           },
           color: {
-            field: "common name", 
+            field: "species", 
             scale: {domain: ["adelie penguin","gentoo penguin", "chinstrap penguin"], 
             scheme: "set3"}
           },

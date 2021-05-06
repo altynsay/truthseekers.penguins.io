@@ -1,9 +1,8 @@
-var yourV2Spec = {
+var yourV3Spec = {
     $schema: 'https://vega.github.io/schema/vega-lite/v5.json',
     description: 'Population of penguins through years',
     width: 400,
-    height: 300,
-    
+    height: 200,
     layer: [
       {
         data: {
@@ -13,37 +12,37 @@ var yourV2Spec = {
             feature: "countries"
           }
         },
-        projection: {type: "stereographic", center: [0,-90], scale: 300},
+        projection: {type: "stereographic", center: [0,-90], scale: 200},
         mark: {type: "geoshape", fill: "lightgray", stroke: "white"}
       },
       {
-        data: { url: 'penguins count.json'},
+        data: { url: 'data/penguins count.json'},
         params: [
           {
             name: "Year",
-            value: {"season starting": 2016},
-            select: {type: "point", fields: ["season starting"]},
-            bind: {"season starting": {input: "range", min: 1982, max: 2016, step: 1}}
+            value: {"year": 2016},
+            select: {type: "point", fields: ["year"]},
+            bind: {"year": {input: "range", min: 1982, max: 2016, step: 1}}
           }
           ],
-        projection: {type: "stereographic", center: [0, -90], scale: 300},
+        projection: {type: "stereographic", center: [0, -90], scale: 200},
         mark: {type:"circle", stroke: "black", strokeWidth: 0.3},
         encoding: {
           longitude: {field: "longitude EPSG:4326", type: "quantitative"},
           latitude: {field: "latitude EPSG:4326", type: "quantitative"},
           color: {
-            field: "common name", 
+            field: "species", 
             type: "nominal", 
             scale: {scheme: "set3", domain: ["adelie penguin","gentoo penguin", "chinstrap penguin"]}
           },
-          tooltip: [{field: "site name", type:"nominal"},{field:"mean", type: "quantitative"}],
+          tooltip: [{field: "site name", type:"nominal"},{field:"population", type: "quantitative"}],
           opacity: {
             condition: {param: "Year", value: 1},
             value: 0
           },
-          size: {field: "mean", type: "quantitative", scale: {rangeMax: 3000}}
+          size: {field: "population", type: "quantitative", scale: {rangeMax: 2000}}
         }
       }
     ]
   };
-  vegaEmbed('#vis2', yourV2Spec)
+  vegaEmbed('#vis3', yourV3Spec)
