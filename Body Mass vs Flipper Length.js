@@ -27,7 +27,7 @@ var yourV5Spec={
       transform: [
         {filter: {param: "brush"}},
         {window: [{op: "rank", as: "rank"}]},
-        {filter: {field: "rank", gt: 15}}
+        {filter: {field: "rank", lt: 15}}
       ],
       hconcat: [{
         width: 50,
@@ -77,7 +77,7 @@ var yourV5Spec={
         transform: [
           {filter: {param: "brush"}},
           {window: [{op: "rank", as: "rank"}]},
-          {filter: {field: "rank", gt: 15}}
+          {filter: {field: "rank", lt: 15}}
         ],
         hconcat: [{
           width: 50,
