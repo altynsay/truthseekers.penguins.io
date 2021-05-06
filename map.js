@@ -16,7 +16,7 @@ var yourV3Spec = {
         mark: {type: "geoshape", fill: "lightgray", stroke: "white"}
       },
       {
-        data: { url: 'data/penguins count.json'},
+        data: { url: 'penguins count.json'},
         params: [
           {
             name: "Year",
