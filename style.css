@@ -1,20 +1,42 @@
 .header {
-    background-color: white;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
-  }
+    font-size:40px;
+    color: rgb(19, 17, 17);
+}
+body{
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
 .flex-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
   }
-  .flex-item {
-    background-color: white;
-    background-position: center center;
-    background-size: cover;
+.flex-item {
     position: center center;
-    margin: 2px;
+    margin: 30px;
     flex: auto;
     height: auto;
-    flex-basis: 200px;
+    flex-basis: 60px;
+  }
+  .vertical-menu {
+    width: 150px;
+    position: fixed;
+    overflow: visible;
+  }
+  .vertical-menu a {
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc;
   }

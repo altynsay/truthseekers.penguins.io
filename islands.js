@@ -17,7 +17,7 @@ var yourV6Spec={ $schema: "https://vega.github.io/schema/vega-lite/v5.json",
 vconcat:[{
   title:"All three study islands in the West Antarctic Peninsula",
   width: 400, 
-  height: 200,
+  height: 150,
    mark: "area",
   encoding: {
     x: {
@@ -28,7 +28,7 @@ vconcat:[{
     },
     color: {field:"common name"}}},{ 
   width: 400, 
-  height: 200,
+  height: 150,
   title:"A closer look at ...",
   mark: "area",
   transform: [{"filter":

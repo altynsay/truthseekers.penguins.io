@@ -1,8 +1,9 @@
 var yourV3Spec = {
     $schema: 'https://vega.github.io/schema/vega-lite/v5.json',
     description: 'Population of penguins through years',
+    title: "Fantastic penguins and where to find them",
     width: 400,
-    height: 200,
+    height: 500,
     layer: [
       {
         data: {
@@ -12,8 +13,8 @@ var yourV3Spec = {
             feature: "countries"
           }
         },
-        projection: {type: "stereographic", center: [0,-90], scale: 200},
-        mark: {type: "geoshape", fill: "lightgray", stroke: "white"}
+        projection: {type: "stereographic", center: [0,-90], scale: 400},
+        mark: {type: "geoshape", fill: "lightgrey", stroke: "white"}
       },
       {
         data: { url: 'penguins count.json'},
@@ -25,7 +26,7 @@ var yourV3Spec = {
             bind: {"year": {input: "range", min: 1982, max: 2016, step: 1}}
           }
           ],
-        projection: {type: "stereographic", center: [0, -90], scale: 200},
+        projection: {type: "stereographic", center: [0, -90], scale: 400},
         mark: {type:"circle", stroke: "black", strokeWidth: 0.3},
         encoding: {
           longitude: {field: "longitude EPSG:4326", type: "quantitative"},
@@ -43,6 +44,9 @@ var yourV3Spec = {
           size: {field: "population", type: "quantitative", scale: {rangeMax: 2000}}
         }
       }
-    ]
+    ],
+    config:{
+      view: {fill: "none"}
+    }
   };
   vegaEmbed('#vis3', yourV3Spec)

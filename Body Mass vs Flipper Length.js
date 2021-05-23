@@ -1,5 +1,6 @@
 var yourV5Spec={
   $schema: "https://vega.github.io/schema/vega-lite/v5.json",
+  title: "Penguin body features",
   vconcat:[{
     data: {url: "https://vega.github.io/vega-datasets/data/penguins.json"},
     transform: [{
@@ -27,7 +28,7 @@ var yourV5Spec={
       transform: [
         {filter: {param: "brush"}},
         {window: [{op: "rank", as: "rank"}]},
-        {filter: {field: "rank", lt: 15}}
+        {filter: {field: "rank", lt: 10}}
       ],
       hconcat: [{
         width: 50,
@@ -77,7 +78,7 @@ var yourV5Spec={
         transform: [
           {filter: {param: "brush"}},
           {window: [{op: "rank", as: "rank"}]},
-          {filter: {field: "rank", lt: 15}}
+          {filter: {field: "rank", lt: 10}}
         ],
         hconcat: [{
           width: 50,
