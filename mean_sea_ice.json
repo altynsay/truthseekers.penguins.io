@@ -1,0 +1,422 @@
+[
+ {
+   "month": 1,
+   "sea_ice_concentration": 923928.6667,
+   "time_span": "1984-1989"
+ },
+ {
+   "month": 2,
+   "sea_ice_concentration": 656214,
+   "time_span": "1984-1989"
+ },
+ {
+   "month": 3,
+   "sea_ice_concentration": 710567,
+   "time_span": "1984-1989"
+ },
+ {
+   "month": 4,
+   "sea_ice_concentration": 965596.1667,
+   "time_span": "1984-1989"
+ },
+ {
+   "month": 5,
+   "sea_ice_concentration": 1246855.333,
+   "time_span": "1984-1989"
+ },
+ {
+   "month": 6,
+   "sea_ice_concentration": 1633507.167,
+   "time_span": "1984-1989"
+ },
+ {
+   "month": 7,
+   "sea_ice_concentration": 1984027.333,
+   "time_span": "1984-1989"
+ },
+ {
+   "month": 8,
+   "sea_ice_concentration": 2141618,
+   "time_span": "1984-1989"
+ },
+ {
+   "month": 9,
+   "sea_ice_concentration": 2188685,
+   "time_span": "1984-1989"
+ },
+ {
+   "month": 10,
+   "sea_ice_concentration": 2092067.167,
+   "time_span": "1984-1989"
+ },
+ {
+   "month": 11,
+   "sea_ice_concentration": 1758691.167,
+   "time_span": "1984-1989"
+ },
+ {
+   "month": 12,
+   "sea_ice_concentration": 1344034.333,
+   "time_span": "1984-1989"
+ },
+ {
+   "month": 1,
+   "sea_ice_concentration": 964802.5,
+   "time_span": "1990-1994"
+ },
+ {
+   "month": 2,
+   "sea_ice_concentration": 710743.8333,
+   "time_span": "1990-1994"
+ },
+ {
+   "month": 3,
+   "sea_ice_concentration": 746364.3333,
+   "time_span": "1990-1994"
+ },
+ {
+   "month": 4,
+   "sea_ice_concentration": 1017192.583,
+   "time_span": "1990-1994"
+ },
+ {
+   "month": 5,
+   "sea_ice_concentration": 1300500.5,
+   "time_span": "1990-1994"
+ },
+ {
+   "month": 6,
+   "sea_ice_concentration": 1638683.75,
+   "time_span": "1990-1994"
+ },
+ {
+   "month": 7,
+   "sea_ice_concentration": 1969378,
+   "time_span": "1990-1994"
+ },
+ {
+   "month": 8,
+   "sea_ice_concentration": 2180750.583,
+   "time_span": "1990-1994"
+ },
+ {
+   "month": 9,
+   "sea_ice_concentration": 2222546.083,
+   "time_span": "1990-1994"
+ },
+ {
+   "month": 10,
+   "sea_ice_concentration": 2107747.75,
+   "time_span": "1990-1994"
+ },
+ {
+   "month": 11,
+   "sea_ice_concentration": 1892811.077,
+   "time_span": "1990-1994"
+ },
+ {
+   "month": 12,
+   "sea_ice_concentration": 1446885.769,
+   "time_span": "1990-1994"
+ },
+ {
+   "month": 1,
+   "sea_ice_concentration": 887982.4706,
+   "time_span": "1995-1999"
+ },
+ {
+   "month": 2,
+   "sea_ice_concentration": 618553,
+   "time_span": "1995-1999"
+ },
+ {
+   "month": 3,
+   "sea_ice_concentration": 675055.1176,
+   "time_span": "1995-1999"
+ },
+ {
+   "month": 4,
+   "sea_ice_concentration": 949419.9412,
+   "time_span": "1995-1999"
+ },
+ {
+   "month": 5,
+   "sea_ice_concentration": 1276399.588,
+   "time_span": "1995-1999"
+ },
+ {
+   "month": 6,
+   "sea_ice_concentration": 1664416.294,
+   "time_span": "1995-1999"
+ },
+ {
+   "month": 7,
+   "sea_ice_concentration": 1978453.294,
+   "time_span": "1995-1999"
+ },
+ {
+   "month": 8,
+   "sea_ice_concentration": 2163628.471,
+   "time_span": "1995-1999"
+ },
+ {
+   "month": 9,
+   "sea_ice_concentration": 2201412.647,
+   "time_span": "1995-1999"
+ },
+ {
+   "month": 10,
+   "sea_ice_concentration": 2093335.059,
+   "time_span": "1995-1999"
+ },
+ {
+   "month": 11,
+   "sea_ice_concentration": 1838826.5,
+   "time_span": "1995-1999"
+ },
+ {
+   "month": 12,
+   "sea_ice_concentration": 1365481.333,
+   "time_span": "1995-1999"
+ },
+ {
+   "month": 1,
+   "sea_ice_concentration": 804499,
+   "time_span": "2000-2004"
+ },
+ {
+   "month": 2,
+   "sea_ice_concentration": 487019.2,
+   "time_span": "2000-2004"
+ },
+ {
+   "month": 3,
+   "sea_ice_concentration": 529747,
+   "time_span": "2000-2004"
+ },
+ {
+   "month": 4,
+   "sea_ice_concentration": 789878.8,
+   "time_span": "2000-2004"
+ },
+ {
+   "month": 5,
+   "sea_ice_concentration": 1151146.2,
+   "time_span": "2000-2004"
+ },
+ {
+   "month": 6,
+   "sea_ice_concentration": 1603420.6,
+   "time_span": "2000-2004"
+ },
+ {
+   "month": 7,
+   "sea_ice_concentration": 1878928.4,
+   "time_span": "2000-2004"
+ },
+ {
+   "month": 8,
+   "sea_ice_concentration": 2151395,
+   "time_span": "2000-2004"
+ },
+ {
+   "month": 9,
+   "sea_ice_concentration": 2284026.2,
+   "time_span": "2000-2004"
+ },
+ {
+   "month": 10,
+   "sea_ice_concentration": 2125276,
+   "time_span": "2000-2004"
+ },
+ {
+   "month": 11,
+   "sea_ice_concentration": 1915368.8,
+   "time_span": "2000-2004"
+ },
+ {
+   "month": 12,
+   "sea_ice_concentration": 1301696.6,
+   "time_span": "2000-2004"
+ },
+ {
+   "month": 1,
+   "sea_ice_concentration": 696228.6,
+   "time_span": "2005-2009"
+ },
+ {
+   "month": 2,
+   "sea_ice_concentration": 437261.4,
+   "time_span": "2005-2009"
+ },
+ {
+   "month": 3,
+   "sea_ice_concentration": 491222.4,
+   "time_span": "2005-2009"
+ },
+ {
+   "month": 4,
+   "sea_ice_concentration": 745122.8,
+   "time_span": "2005-2009"
+ },
+ {
+   "month": 5,
+   "sea_ice_concentration": 1136014.8,
+   "time_span": "2005-2009"
+ },
+ {
+   "month": 6,
+   "sea_ice_concentration": 1506192.8,
+   "time_span": "2005-2009"
+ },
+ {
+   "month": 7,
+   "sea_ice_concentration": 1842873.6,
+   "time_span": "2005-2009"
+ },
+ {
+   "month": 8,
+   "sea_ice_concentration": 2067948.8,
+   "time_span": "2005-2009"
+ },
+ {
+   "month": 9,
+   "sea_ice_concentration": 1957162.6,
+   "time_span": "2005-2009"
+ },
+ {
+   "month": 10,
+   "sea_ice_concentration": 1832013.8,
+   "time_span": "2005-2009"
+ },
+ {
+   "month": 11,
+   "sea_ice_concentration": 1628499.6,
+   "time_span": "2005-2009"
+ },
+ {
+   "month": 12,
+   "sea_ice_concentration": 1062557.4,
+   "time_span": "2005-2009"
+ },
+ {
+   "month": 1,
+   "sea_ice_concentration": 674695,
+   "time_span": "2010-2014"
+ },
+ {
+   "month": 2,
+   "sea_ice_concentration": 352608.8,
+   "time_span": "2010-2014"
+ },
+ {
+   "month": 3,
+   "sea_ice_concentration": 386867,
+   "time_span": "2010-2014"
+ },
+ {
+   "month": 4,
+   "sea_ice_concentration": 674364.6,
+   "time_span": "2010-2014"
+ },
+ {
+   "month": 5,
+   "sea_ice_concentration": 1132959.2,
+   "time_span": "2010-2014"
+ },
+ {
+   "month": 6,
+   "sea_ice_concentration": 1681926.4,
+   "time_span": "2010-2014"
+ },
+ {
+   "month": 7,
+   "sea_ice_concentration": 2177357.8,
+   "time_span": "2010-2014"
+ },
+ {
+   "month": 8,
+   "sea_ice_concentration": 2414092.2,
+   "time_span": "2010-2014"
+ },
+ {
+   "month": 9,
+   "sea_ice_concentration": 2331166.8,
+   "time_span": "2010-2014"
+ },
+ {
+   "month": 10,
+   "sea_ice_concentration": 2108369.8,
+   "time_span": "2010-2014"
+ },
+ {
+   "month": 11,
+   "sea_ice_concentration": 2065996.8,
+   "time_span": "2010-2014"
+ },
+ {
+   "month": 12,
+   "sea_ice_concentration": 1443389.6,
+   "time_span": "2010-2014"
+ },
+ {
+   "month": 1,
+   "sea_ice_concentration": 680542,
+   "time_span": "2015-2019"
+ },
+ {
+   "month": 2,
+   "sea_ice_concentration": 389949.7692,
+   "time_span": "2015-2019"
+ },
+ {
+   "month": 3,
+   "sea_ice_concentration": 418802.1538,
+   "time_span": "2015-2019"
+ },
+ {
+   "month": 4,
+   "sea_ice_concentration": 705475.3077,
+   "time_span": "2015-2019"
+ },
+ {
+   "month": 5,
+   "sea_ice_concentration": 1086730.846,
+   "time_span": "2015-2019"
+ },
+ {
+   "month": 6,
+   "sea_ice_concentration": 1547861.769,
+   "time_span": "2015-2019"
+ },
+ {
+   "month": 7,
+   "sea_ice_concentration": 2018414.692,
+   "time_span": "2015-2019"
+ },
+ {
+   "month": 8,
+   "sea_ice_concentration": 2261557.923,
+   "time_span": "2015-2019"
+ },
+ {
+   "month": 9,
+   "sea_ice_concentration": 2221056.923,
+   "time_span": "2015-2019"
+ },
+ {
+   "month": 10,
+   "sea_ice_concentration": 2029316.692,
+   "time_span": "2015-2019"
+ },
+ {
+   "month": 11,
+   "sea_ice_concentration": 1843560.154,
+   "time_span": "2015-2019"
+ },
+ {
+   "month": 12,
+   "sea_ice_concentration": 1265474.231,
+   "time_span": "2015-2019"
+ }
+]
